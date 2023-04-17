@@ -21,7 +21,6 @@ Design: [Coming soon](https://cdn.discordapp.com/attachments/850245533838868480/
 
 -   Github pages
 -   README / [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- Github pages
 - git branch
 - responsive design
 - CSS animation
