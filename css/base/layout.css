@@ -9,7 +9,7 @@
     align-items: center;
     gap: 2.3rem;
     width: 50rem;
-    margin: 0 calc(50% - 19rem);
+    margin: 0 calc(50% - 25rem);
 }
 
 .container > .row {
