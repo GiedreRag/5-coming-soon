@@ -21,6 +21,9 @@
 }
 
 .main-description {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-style: normal;
     font-size: 1.3rem;
     text-align: center;
 }

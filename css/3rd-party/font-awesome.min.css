@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../../fonts/Roboto/Roboto-Black.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../../fonts/Roboto/Roboto-Light.ttf);
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../../fonts/Roboto/Roboto-LightItalic.ttf);
+    font-weight: light;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
