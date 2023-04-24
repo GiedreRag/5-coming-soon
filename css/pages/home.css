@@ -3,10 +3,10 @@
 @import '../base/layout.css';
 
 /* is 3rd-party */
-
 @import '../3rd-party/font-awesome.min.css';
 
 /* is components */
+@import '../components/clock.css';
 
 /* is CUSTOM STYLE BELOW THIS COMMENT LINE */
 
@@ -29,7 +29,7 @@
 }
 
 footer.container {
-    padding-top: 0%;
+    padding-top: 0;
 }
 
 .row.socials {
@@ -72,7 +72,6 @@ footer > .row-short a {
 
 .footer-logo {
     height: 3rem;
-    margin-top: 0.2rem;
     margin-bottom: 2rem;
 }
 
