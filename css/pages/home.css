@@ -7,10 +7,19 @@
 
 /* is components */
 @import '../components/clock.css';
+@import '../components/form.css';
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
 
 /* is CUSTOM STYLE BELOW THIS COMMENT LINE */
+.hero {
+    background-image: url(../../img/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
 
 .logo {
     width: 3rem;
