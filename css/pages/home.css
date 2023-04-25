@@ -7,6 +7,7 @@
 
 /* is components */
 @import '../components/clock.css';
+@import '../components/mouse.css';
 @import '../components/progress-bar.css';
 
 /* is CUSTOM STYLE BELOW THIS COMMENT LINE */
