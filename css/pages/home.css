@@ -6,10 +6,12 @@
 @import '../3rd-party/font-awesome.min.css';
 
 /* is components */
+@import '../components/button.css';
 @import '../components/clock.css';
 @import '../components/form.css';
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
+@import '../components/type-your-email.css';
 
 /* is CUSTOM STYLE BELOW THIS COMMENT LINE */
 .hero {
@@ -43,8 +45,21 @@ footer.container {
     padding-top: 0;
 }
 
-.row.socials {
+footer .row {
+    position: relative;
+}
+
+footer .row > .btn {
+    position: absolute;
+    top: -1.5rem;
+    right: -1.5rem;
+}
+
+.socials {
     display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 0.5em;
     border-bottom: 0.1rem solid #fffb;
     font-size: 1.3rem;
@@ -52,7 +67,7 @@ footer.container {
     margin-bottom: 2.5rem;
 }
 
-.row.socials > a {
+.socials > a {
     height: 2.5em;
     width: 2.5em;
     line-height: 2.5em;
@@ -63,9 +78,9 @@ footer.container {
     transition: color 5s, background-color 5s;
 }
 
-.row.socials > a:hover {
+.socials > a:hover {
     background-color: white;
-    color: #03a9f3;
+    color: var(--main-color);
     transition: all 1s;
 }
 
@@ -114,5 +129,17 @@ footer > .row-short a {
 
     .text-trio > p::after {
         display: block;
+    }
+}
+
+@media (max-width: 450px) {
+    .btn.btn-circle {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 22rem) {
+    .main-title {
+        font-size: 3.5rem;
     }
 }
